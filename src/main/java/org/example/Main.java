@@ -25,7 +25,7 @@ public class Main {
         while (!out) {
            userInput = scanner.nextLine();
             if(userInput.length() > 3 || userInput.length() < 2) {
-                System.out.println("More than 3 or less than 2 characters were entered, try again! ");
+                System.out.println("More than 3 or less than 2 characters were entered, try again!! ");
             } else {
                 System.out.println("This is the correct input thx ");
                 out = true;
