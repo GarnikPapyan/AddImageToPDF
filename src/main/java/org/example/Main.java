@@ -33,7 +33,7 @@ public class Main {
         }
         addTextToImage(userInput);
 
-        System.out.println("Please enter the path to your PDF file, if there is none, press '0' and the default file will be selected");
+        System.out.println("Please enter the path to your PDF file, if there is none, press '0' and the default file will be selected!");
         String pathToPdf = "C:\\Users\\Garnik-PC\\IdeaProjects\\ProcessingApplicationImgPdf\\src\\main\\resources\\pdf-dokument.pdf";
         String defaultPath = pathToPdf;
         boolean outForPdf = false;
